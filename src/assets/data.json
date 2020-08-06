@@ -1,0 +1,189 @@
+[
+    
+        {
+            "id": "1",
+            "model": "Chevrolet Corvette",
+            "make": "Chevrolet",
+            "price": "$58,900 starting",
+            "colors": "Arctic White",
+            "features": {
+              "driveTrain": "RWD",
+              "fuelSystem": "Gas",
+              "braking": "ABS"
+                   },
+            "horsePower": "490hp",
+            "engine": "6.2-liter LT2 V8",
+            "mileage": "15 mpg city/27 mpg highway"
+        },
+        {
+            "id": "2",
+            "model": "Ford Escape",
+            "make": "Ford",
+            "price": "$24,885 starting",
+            "colors": "Velocity Blue",
+            "features": {
+              "driveTrain": "AWD",
+              "fuelSystem": "Gas",
+              "braking": "ABS"
+                   },
+            "horsePower": "181hp",
+            "engine": "1.5L EcoBoost Engine",
+            "mileage": "26 mpg city/31 mpg highway"
+        },
+      
+        {
+            "id": "4",
+            "model": "Toyota Supra",
+            "make": "Toyota",
+            "price": "$49,990 starting",
+            "colors": "Tungsten Silver",
+            "features": {
+              "driveTrain": "RWD",
+              "fuelSystem": "Turbo Gas",
+              "braking": "ABS"
+                   },
+            "horsePower": "335hp",
+            "engine": "3.0 L 6-cylinder",
+            "mileage": "24 mpg city/31 mpg highway"
+        },
+        {
+            "id": "5",
+            "model": "Audi e-tron",
+            "make": "Audi",
+            "price": "$77,400 starting",
+            "colors": "Antigua Blue Metallic",
+            "features": {
+              "driveTrain": "RWD",
+              "fuelSystem": "Electric",
+              "braking": "4-Wheel Disc"
+                   },
+            "horsePower": "355hp",
+            "engine": "218 mi battery-only",
+            "mileage": "76 city / 78 highway"
+        },
+      
+        {
+            "id": "7",
+            "model": "Hyundai Sonata",
+            "make": "Toyota",
+            "price": "$23,600 starting",
+            "colors": "Stormy Sea",
+            "features": {
+              "driveTrain": "FWD",
+              "fuelSystem": "Turbo Gas",
+              "braking": "ABS"
+                   },
+            "horsePower": "180 to 191 hp",
+            "engine": "2.5 L 4-cylinder",
+            "mileage": "28 city / 38 highway"
+        },
+        {
+            "id": "8",
+            "model": "Cadillac CT5",
+            "make": "Cadillac",
+            "price": "$36,895 starting",
+            "colors": "Evergreen Metallic",
+            "features": {
+              "driveTrain": "RWD",
+              "fuelSystem": "Gas",
+              "braking": "PWR"
+                   },
+            "horsePower": "237 to 360 hp",
+            "engine": "2.0 L 4-cylinder, 3.0 L V6",
+            "mileage": "23 city / 32 highway"
+        },
+        {
+            "id": "9",
+            "model": "Subaru Outback",
+            "make": "Subaru",
+            "price": "$26,645 starting",
+            "colors": "Ice Silver Metallic",
+            "features": {
+              "driveTrain": "AWD",
+              "fuelSystem": "Gasoline Direct Injection",
+              "braking": "ABS"
+                   },
+            "horsePower": "182 to 260 hp",
+            "engine": "Regular Unleaded H-4, 2.5 L",
+            "mileage": "27 mpg city / 35 highway"
+        },
+        {
+            "id": "10",
+            "model": "Jaguar I-PACE",
+            "make": "Jaguar",
+            "price": "$69,850 starting",
+            "colors": "Firenze Red Metallic",
+            "features": {
+              "driveTrain": "AWD",
+              "fuelSystem": "Electric",
+              "braking": "ABS"
+                   },
+            "horsePower": "394 hp",
+            "engine": "234 mi battery-only",
+            "mileage": "80 city / 72 highway"
+        },
+        {
+            "id": "11",
+            "model": "Kia Telluride",
+            "make": "Kia",
+            "price": "$31,890 starting",
+            "colors": "Black Copper",
+            "features": {
+              "driveTrain": "FWD",
+              "fuelSystem": "Gas",
+              "braking": "ABS"
+            },
+            "horsePower": "291 hp",
+            "engine": "3.8-liter Lambda DOHC 24-valve V6",
+            "mileage": "19 city / 24 highway"
+        },
+        {
+            "id": "12",
+            "model": "Tesla Model Y",
+            "make": "Tesla",
+            "price": "$52,990 starting",
+            "colors": "Black Copper",
+            "features": {
+              "driveTrain": "AWD",
+              "fuelSystem": "Electric",
+              "braking": "ABS"
+            },
+            "horsePower": "291 hp",
+            "engine": "315 to 316 mi battery-only",
+            "mileage": "121/129/112 MPGe"
+        },
+        {
+            "id": "13",
+            "model": "BMW M2",
+            "make": "BMW",
+            "price": "$58,900 starting",
+            "colors": "Sunset Orange Metallic",
+            "features": {
+              "driveTrain": "AWD",
+              "fuelSystem": "Gas",
+              "braking": "ABS"
+            },
+            "horsePower": "405 hp",
+            "engine": "3.0 L 6-cylinder",
+            "mileage": "26 mpg highway"
+        },
+        {
+            "id": "14",
+            "model": "Nissan Altima",
+            "make": "Nissan",
+            "price": "$24,100 starting",
+            "colors": "Deep Blue Pearl",
+            "features": {
+              "driveTrain": "AWD",
+              "fuelSystem": "Gas",
+              "braking": "ABS"
+            },
+            "horsePower": "182 to 236 hp",
+            "engine": "2.0 L 4-cylinder, 2.5 L 4-cylinder",
+            "mileage": "28 mpg city / 39 highway"
+        }
+        
+        
+       
+    
+]
