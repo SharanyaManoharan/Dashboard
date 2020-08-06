@@ -32,7 +32,7 @@
         },
       
         {
-            "id": "4",
+            "id": "3",
             "model": "Toyota Supra",
             "make": "Toyota",
             "price": "$49,990 starting",
@@ -47,7 +47,7 @@
             "mileage": "24 mpg city/31 mpg highway"
         },
         {
-            "id": "5",
+            "id": "4",
             "model": "Audi e-tron",
             "make": "Audi",
             "price": "$77,400 starting",
@@ -63,7 +63,7 @@
         },
       
         {
-            "id": "7",
+            "id": "5",
             "model": "Hyundai Sonata",
             "make": "Toyota",
             "price": "$23,600 starting",
@@ -78,7 +78,7 @@
             "mileage": "28 city / 38 highway"
         },
         {
-            "id": "8",
+            "id": "6",
             "model": "Cadillac CT5",
             "make": "Cadillac",
             "price": "$36,895 starting",
@@ -93,7 +93,7 @@
             "mileage": "23 city / 32 highway"
         },
         {
-            "id": "9",
+            "id": "7",
             "model": "Subaru Outback",
             "make": "Subaru",
             "price": "$26,645 starting",
@@ -108,7 +108,7 @@
             "mileage": "27 mpg city / 35 highway"
         },
         {
-            "id": "10",
+            "id": "8",
             "model": "Jaguar I-PACE",
             "make": "Jaguar",
             "price": "$69,850 starting",
@@ -123,7 +123,7 @@
             "mileage": "80 city / 72 highway"
         },
         {
-            "id": "11",
+            "id": "9",
             "model": "Kia Telluride",
             "make": "Kia",
             "price": "$31,890 starting",
@@ -138,7 +138,7 @@
             "mileage": "19 city / 24 highway"
         },
         {
-            "id": "12",
+            "id": "10",
             "model": "Tesla Model Y",
             "make": "Tesla",
             "price": "$52,990 starting",
@@ -153,7 +153,7 @@
             "mileage": "121/129/112 MPGe"
         },
         {
-            "id": "13",
+            "id": "11",
             "model": "BMW M2",
             "make": "BMW",
             "price": "$58,900 starting",
@@ -168,7 +168,7 @@
             "mileage": "26 mpg highway"
         },
         {
-            "id": "14",
+            "id": "12",
             "model": "Nissan Altima",
             "make": "Nissan",
             "price": "$24,100 starting",

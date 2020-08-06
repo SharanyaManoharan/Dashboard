@@ -38,11 +38,12 @@
   }
 
   .centered {
-    position: fixed;
-    top: 28%;
-    left: 39%;
-    margin: 0 auto;
-    width: auto;
+    position: absolute;
+    width: 25em;
+    margin-top: -13em !important;
+    margin : 0 auto;
+    left : 0 auto;
+    
   }
 
   .mat-form-field + .mat-form-field {
