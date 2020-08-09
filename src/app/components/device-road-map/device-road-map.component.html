@@ -12,12 +12,14 @@
     </section>
 </div>
 
-<div *ngIf="openCard">
-    <app-detailscard  [horizontalCardData]="horizontalCardData"></app-detailscard>
-</div>
+
 
 <div *ngFor="let list of selected; let i = index;">
     <h2 class="heading">{{sampleData[list].name}}</h2>
     <hr class="divider">
     <app-timelinechart [timeLineData]="sampleData[list]"></app-timelinechart>
+</div>
+
+<div *ngIf="openCard">
+    <app-detailscard  [horizontalCardData]="horizontalCardData"></app-detailscard>
 </div>
