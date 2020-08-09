@@ -1,0 +1,16 @@
+
+  <div class="details-card-container">
+    <mat-card class="example-card mat-elevation-z8" *ngFor="let details of horizontalCardData; let i = index">
+      <mat-card-header>
+        <mat-card-title>{{details.name}}</mat-card-title>
+        <mat-card-subtitle>{{ details.data[i].quater}} 2020</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <p>
+          {{ details.data.data.name}}
+        </p>
+      </mat-card-content>
+    </mat-card>
+
+  </div>  
+   

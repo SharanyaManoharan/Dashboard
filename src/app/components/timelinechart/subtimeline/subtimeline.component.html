@@ -1,0 +1,25 @@
+<div class="wraper">
+    <ul class="container">
+        <li class="link" *ngFor="let device of SubTimeLineData.information; let i = index">
+            <a>{{device.make}}</a>
+       </li>
+       <li class="link" *ngFor="let device of SubTimeLineData.information; let i = index">
+         <a>{{device.price}}</a>
+      </li>
+      <li class="link" *ngFor="let device of SubTimeLineData.information; let i = index">
+        <a>{{device.colors}}</a>
+     </li>
+      <li class="link" *ngFor="let device of SubTimeLineData.information; let i = index">
+        <a>{{device.features.fuelSystem}}</a>
+     </li>
+     <li class="link" *ngFor="let device of SubTimeLineData.information; let i = index">
+        <a>{{device.horsePower}}</a>
+     </li>
+     <li class="link" *ngFor="let device of SubTimeLineData.information; let i = index">
+        <a>{{device.engine}}</a>
+     </li>
+     <li class="link" *ngFor="let device of SubTimeLineData.information; let i = index">
+        <a>{{device.mileage}}</a>
+     </li>
+    </ul>
+</div>

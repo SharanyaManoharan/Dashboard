@@ -1,0 +1,244 @@
+[
+    {
+        "name": "Cars",
+        "data": [{
+                "quater": "Q1",
+                "data": [
+                    {
+                        "name": "Jaguar I-PACE",
+                        "information": [{
+                                "make": "Jaguar",
+                                "price": "$69,850 starting",
+                                "colors" : "Firenze Red Metallic",
+                                "features" : {
+                                    "driveTrain" : "AWD",
+                                    "fuelSystem" : "Electric",
+                                    "braking" : "ABS"
+                                },
+                                "horsePower" : "394 hp",
+                                "engine" : "234 mi battery-only",
+                                "mileage" : "80 city/ 72 highway"
+                            }]
+                        }
+                ]
+            },
+            {
+                "quater": "Q2",
+                "data": [{
+                      "name": "Kia Telluride",
+                      "information": [{
+                        "make": "Kia",
+                        "price": "$31,890 starting",
+                        "colors" : "Black Copper",
+                        "features" : {
+                            "driveTrain": "FWD",
+                            "fuelSystem": "Gas",
+                            "braking": "ABS"
+                        },
+                        "horsePower": "291 hp",
+                        "engine": "3.8-liter Lambda DOHC 24-valve V6",
+                        "mileage": "19 city / 24 highway"
+                    }]
+                    }
+               ]
+            },
+              {
+                 "quater": "Q3",
+                 "data": [{
+                    "name": "Tesla Model Y",
+                    "information": [{
+                        "make": "Tesla",
+                        "price": "$52,990 starting",
+                        "colors": "Deep Blue Pearl",
+                        "features" : {
+                            "driveTrain": "AWD",
+                            "fuelSystem": "Electric",
+                            "braking": "ABS"
+                        },
+                        "horsePower": "291 hp",
+                        "engine": "315 to 316 mi battery-only",
+                        "mileage": "121/129/112 MPGe"
+                    }]
+                    }
+                ]
+            },
+            {
+                "quater": "Q4",
+                "data": [{
+                    "name": "BMW M2",
+                    "information": [{
+                        "make": "BMW",
+                        "price": "$24,100 starting",
+                        "colors": "Sunset Orange Metallic",
+                        "features" : {
+                            "driveTrain": "AWD",
+                            "fuelSystem": "Gas",
+                            "braking": "ABS"
+                        },
+                        "horsePower": "405 hp",
+                       "engine": "3.0 L 6-cylinder",
+                       "mileage": "26 mpg highway"
+                    }]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Bicycles",
+        "data": [{
+                "quater": "Q1",
+                "data": [{
+                       "name": "Fuji Nevada",
+                        "information": [{
+                            "make" : "Fuji",
+                            "price": "$499.99",
+                            "colors": "Satin Khaki Green",
+                            "features" : {
+                                "fuelSystem" : "Shimano MT400, 160mm rotors"
+                            },
+                            "horsePower" : "WTB Ranger Comp, 27.5 x 2.25 inches, 27tpi",
+                            "engine": "Fuji A2-SL custom-butted alloy",
+                            "mileage" : "55 lb carrying capacity"
+                        }]
+                    }
+                ]
+            },
+            {
+                "quater": "Q2",
+                "data": [{
+                        "name": "RadCity Step-Thru 3",
+                        "information": [{
+                            "make": "RadCity",
+                            "price": "$1,499",
+                            "colors": "White",
+                            "features" : {
+                                "fuelSystem": "K-Rad 26 x 2.3 inches, K-Shield puncture-resistant liner"
+                            },
+                            "horsePower" : "6061 aluminum",
+                            "engine": "Tektro Aries (MD-M300)",
+                            "mileage" : "60 lb carrying capacity"
+                        }]
+                    }
+                ]
+            },
+            {
+                "quater": "Q3",
+                "data": [{
+                        "name": "MILAN Citizen Bike",
+                        "information": [{
+                            "make" : "MILAN",
+                            "price": "$279",
+                            "colors": "Silver",
+                            "features" : {
+                                "fuelSystem": "20 inch steel step-thru frame"
+                            },
+                            "horsePower": "Kenda Kwest, 20 x 1.75 inch",
+                            "engine": "rear pedal brake",
+                            "mileage" : "33 lbs carrying capacity with rack"
+                        }]
+                    }
+                ]
+            },
+            {
+                "quater": "Q4",
+                "data": [{
+                    "name": "RadCity Step-Thru 3",
+                        "information": [{
+                            "make": "RadCity",
+                            "price": "$1,499",
+                            "colors": "White",
+                            "features" : {
+                                "fuelSystem": "K-Rad 26 x 2.3 inches, K-Shield puncture-resistant liner"
+                            },
+                            "horsePower" : "6061 aluminum",
+                            "engine": "Tektro Aries (MD-M300)",
+                            "mileage" : "60 lb carrying capacity"
+                        }]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Aeroplanes",
+        "data": [
+            {
+
+                "quater": "Q1",
+                "data": [{
+                    "name": "Cessna SkyCourier",
+                        "information": [{
+                            "make": "Cessna",
+                            "price": "$5.5 million",
+                            "colors" : "White",
+                            "features" : {
+                                "fuelSystem" : "900-nm max"
+                            },
+                            "engine" : "1,100 shp Pratt & Whitney Canada PT6A-65SC",
+                            "horsePower": "6,000-pound",
+                            "mileage": "200-ktas"
+                        }]
+                    }
+               ]
+            },
+            {
+                "quater": "Q2",
+                "data": [{
+                        "name": "Tecnam P2012",
+                        "information": [{
+                            "make" : "Technam",
+                            "price": "$2.7 million",
+                            "colors" : "Black",
+                            "features" : {
+                                "fuelSystem" : "950-nm max"
+                            },
+                            "engine" : "TEO540C1A six-cylinder engines",
+                            "horsePower": "5,000-pound",
+                            "mileage": "190-ktas"
+                       }]
+                    }
+                ]
+            },
+            {
+                "quater": "Q3",
+                "data": [{
+                    "name": "Epic E1000",
+                        "information": [{
+                            "make" : "Epic",
+                            "price": "$3 million",
+                            "colors" : "Silver",
+                            "features" : {
+                                "fuelSystem" : "1650-nm max"
+                            },
+                            "engine" : "Pratt & Whitney PT6A-67A",
+                            "horsePower": "1,100-pound",
+                            "mileage": "320-ktas"
+                        }]
+                    }]
+            },
+            {
+                "quater": "Q4",
+                "data": [
+                    {
+                    "name": "Tecnam P2012",
+                        "information": [
+                            {
+                            "make" : "Technam",
+                            "price": "$2.7 million",
+                            "colors" : "Black",
+                            "features" : {
+                                "fuelSystem" : "950-nm max"
+                               },
+                            "engine" : "TEO540C1A six-cylinder engines",
+                            "horsePower": "5,000-pound",
+                            "mileage": "190-ktas"
+                             }
+                        ]
+                    }
+                ]  
+            }
+        ]
+    }
+  ] 
+

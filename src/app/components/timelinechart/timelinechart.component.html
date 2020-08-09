@@ -1,0 +1,32 @@
+
+<div class="wraper">
+    <ul class="container">
+        <ng-container *ngFor="let quarter of timeLineData.data;let i =index;" >
+            <div class="card highlight-card-quarter card-small-quarter" 
+            [ngStyle]="{'background-color': (parentIndex==i) ? '#91b199 ' : '' }"
+            (click)="detailsCard()" >
+         
+                <div class="q1-card" *ngIf="parentIndex != i">{{ quarter.quater}}</div>
+                <div class="q1-card" *ngIf="parentIndex == i">{{ quarter.quater}}</div>
+            </div>
+            <li class="link" [ngClass]="{'active': (parentIndex == i && childIndex==j )}" (click)="selectedval(device,i,j)" *ngFor="let device of quarter.data; let j = index">
+                <a [ngStyle]="{'color': (parentIndex==i && childIndex==j ) ? 'rgb(241 10 10)' : 'rgb(8 8 8)' }">
+                    {{device.name}}</a>
+            </li>
+        </ng-container>
+    </ul>
+</div>
+
+
+<div *ngIf="showSubTimeLine">
+    <mat-card class="card-timeline">
+        <div >
+            <h2 class="timeline-h2">IN Q{{parentIndex+1}} - {{SubTimeLineData.name}}</h2>
+        </div>
+        <div style="background-color: white;">
+            <hr class="divider">
+            <app-subtimeline [SubTimeLineData]="SubTimeLineData"></app-subtimeline>
+            <hr class="divider">
+        </div>
+    </mat-card>
+</div>

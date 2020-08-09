@@ -1,0 +1,31 @@
+.container {
+    background-color: #858080;
+}
+
+.roadmap-h2 {
+    margin: 0px 0px 0px 10px;
+    padding-top: 9px;
+}
+
+.roadmap-section {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.roadmap-margin {
+    margin: 0 10px;
+}
+
+hr.divider {
+    border: 1px solid red;
+}
+
+.heading {
+    color: black;
+    margin: 0px 0px 0px 10px;
+    padding-top: 9px;
+    font-size: 15px;
+    font-weight: bold;
+}

@@ -1,0 +1,23 @@
+<div class="container">
+    <div>
+        <h2 class="roadmap-h2">{{headingText}}</h2>
+        <hr class="divider">
+    </div>
+    <section class="roadmap-section">
+        <div *ngFor="let item of checkboxes; let i = index;" >
+            <mat-checkbox class="roadmap-margin" [ngModel]="canbeChecked(item.id)" (click)="userSelectClick(item.id)">
+                {{item.name}}
+            </mat-checkbox>
+        </div>
+    </section>
+</div>
+
+<div *ngIf="openCard">
+    <app-detailscard  [horizontalCardData]="horizontalCardData"></app-detailscard>
+</div>
+
+<div *ngFor="let list of selected; let i = index;">
+    <h2 class="heading">{{sampleData[list].name}}</h2>
+    <hr class="divider">
+    <app-timelinechart [timeLineData]="sampleData[list]"></app-timelinechart>
+</div>

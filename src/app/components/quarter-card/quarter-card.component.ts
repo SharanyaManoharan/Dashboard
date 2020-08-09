@@ -1,5 +1,5 @@
 import { Component, OnInit, HostListener } from '@angular/core';
-import { CarService } from '../quarter-card/car.service';
+import { CarService } from '../../services/car.service';
 import { Router } from '@angular/router';
 
 

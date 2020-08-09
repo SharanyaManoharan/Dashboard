@@ -1,9 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { QuarterCardComponent } from './components/quarter-card/quarter-card.component';
-import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { QuarterCardComponent } from './quarter-card/quarter-card.component';
+
 const routes: Routes = [
-  { path: 'dashboard', component: DashboardComponent},
   { path: 'quarter', component: QuarterCardComponent}
 ];
 

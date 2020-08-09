@@ -14,5 +14,8 @@ export class CarService {
     return this.http.get('../../assets/data.json');
   }
 
+  public getRoadMapDetails(): Observable<any> {
+    return this.http.get('../../assets/roadmap.json');
+  }
 
 }
