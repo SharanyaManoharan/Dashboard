@@ -30,8 +30,8 @@ export class DeviceRoadMapComponent implements OnInit {
   }
 
   userSelectClick(id) {
-    this.openCard = true;
-    alert("opened cars");
+    // this.openCard = true;
+    // alert("opened cars");
 
     if (!this.selected.includes(id)) {
         this.selected.push(id);

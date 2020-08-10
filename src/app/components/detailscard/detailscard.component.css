@@ -1,5 +1,19 @@
 .details-card-container {
     position: absolute;
-    top: -72%;
+    top: -48%;
     left: 43%;
+    width: 20em;
+}
+
+.mat-card {
+    background-color: white;
+    color : black;
+}
+
+.mat-card-title {
+    color : red;
+}
+
+.mat-card-subtitle {
+    color : black;
 }

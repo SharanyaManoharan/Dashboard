@@ -3,11 +3,15 @@
     <mat-card class="example-card mat-elevation-z8" *ngFor="let details of horizontalCardData; let i = index">
       <mat-card-header>
         <mat-card-title>{{details.name}}</mat-card-title>
-        <mat-card-subtitle>{{ details.data[i].quater}} 2020</mat-card-subtitle>
+        <mat-card-subtitle>{{ details.data[0].quater}} 2020</mat-card-subtitle>
+        <mat-card-subtitle>{{ details.data[0].data[i].name}}</mat-card-subtitle>
+        <mat-card-subtitle>{{ details.data[1].quater}} 2020</mat-card-subtitle>
+        <mat-card-subtitle>{{ details.data[1].data[i].name}}</mat-card-subtitle>
+        <mat-card-subtitle>{{ details.data[2].quater}} 2020</mat-card-subtitle>
+        <mat-card-subtitle>{{ details.data[2].data[i].name}}</mat-card-subtitle>
+        <mat-card-subtitle>{{ details.data[3].quater}} 2020</mat-card-subtitle>
+        <mat-card-subtitle>{{ details.data[3].data[i].name}}</mat-card-subtitle>
       </mat-card-header>
-      <mat-card-content>
-        <p>{{ details.data[i].data[i].name}}</p>
-      </mat-card-content>
     </mat-card>
 
   </div>  
