@@ -1,8 +1,18 @@
 <div class="container">
-    <div>
+    <div style="background-color: white;">
         <h2 class="roadmap-h2">{{headingText}}</h2>
         <hr class="divider">
+        <div class="sortby">
+            <label for="years">Sort by</label>
+                <select name="years" id="years">
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                </select>
+        </div>
+        <button class="expand-btn"></button>
     </div>
+    
     <section class="roadmap-section">
         <div *ngFor="let item of checkboxes; let i = index;" >
             <mat-checkbox class="roadmap-margin" [ngModel]="canbeChecked(item.id)" (click)="userSelectClick(item.id)">

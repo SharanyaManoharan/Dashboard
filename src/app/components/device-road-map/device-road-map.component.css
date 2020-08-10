@@ -5,6 +5,7 @@
 .roadmap-h2 {
     margin: 0px 0px 0px 10px;
     padding-top: 9px;
+    color:black;
 }
 
 .roadmap-section {
@@ -12,14 +13,57 @@
     align-content: center;
     align-items: center;
     height: 60px;
+    color : black;
 }
 
 .roadmap-margin {
     margin: 0 10px;
 }
 
+#mat-checkbox-1-input {
+    color : black;
+}
+
+input {
+    color: -internal-light-dark(black, black) important;
+    background-color: black important;
+}
+
+input[type=checkbox] {
+    background-color: black important;
+}
+
+.sortby {
+    float: right;
+    margin-top: -3em;
+    color: black;
+    margin-right: 4em;
+    height: 30px;
+    width: auto;
+    font-weight: bold;
+}
+
+#years {
+    font-weight: bold;
+}
+
+.expand-btn{
+    background-image: url("../../../assets/expand.png");
+    height: 24px;
+    width: 24px;
+    float: right;
+    margin-top: -3.5em;
+    margin-right: 1em;
+    color: black;
+    background-color: white;
+    position: relative;
+    background-repeat: no-repeat;
+    border: 0px solid white;
+}
+
 hr.divider {
-    border: 1px solid red;
+    border: 1px solid black;
+    
 }
 
 .heading {
